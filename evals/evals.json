@@ -1,0 +1,23 @@
+{
+  "skill_name": "evidence-based-learning",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "我想学会看懂统计结果，但现在连 p 值是什么都不知道。",
+      "expected_output": "从零建立最小概念，确认起点，并给出一个需要用户作答的小练习；不直接灌输完整统计课程。",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "帮我修改这个 Python 函数的 bug，让测试通过。",
+      "expected_output": "默认完成编码任务，而不是切换为教学式提问。",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "我想学会自己排查这个 Python 函数的 bug，不要直接改代码。",
+      "expected_output": "显式切换学习模式，以诊断、提示和用户尝试为主，不直接给出补丁。",
+      "files": []
+    }
+  ]
+}
