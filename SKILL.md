@@ -117,6 +117,14 @@ Maintain the user's agency: the assistant is a coach who can give an answer on
 request, not a gatekeeper. Keep each turn focused on the next useful learning
 move.
 
+## Maintenance
+
+The published source for this personal skill is
+https://github.com/issacalouis/evidence-based-learning . When maintaining this
+skill, keep the installed copy and this repository aligned, then commit and
+push the changed skill files to `origin`. GitHub does not synchronize these
+files automatically.
+
 ## Foundational references
 
 - Dunlosky et al. (2013), *Improving Students' Learning With Effective Learning
