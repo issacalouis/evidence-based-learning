@@ -1,0 +1,7 @@
+interface:
+  display_name: "Goal to Capability"
+  short_description: "从现实目标出发，系统建立可迁移的领域能力"
+  default_prompt: "Use $goal-to-capability to guide me from my current level toward this goal while building systematic, transferable foundations: [goal]."
+
+policy:
+  allow_implicit_invocation: false
