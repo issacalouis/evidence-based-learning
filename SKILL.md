@@ -89,11 +89,56 @@ For the first response:
    like.
 2. Show a compact provisional sequence of milestones derived from both maps.
 3. Identify the current stage and why it comes first.
-4. Begin the orientation, diagnostic, or first foundation module in the same
-   response whenever possible.
+4. Deliver the orientation, diagnostic, or first foundation module in the same
+   response whenever possible, using the PDF-first teaching protocol below.
 
 Do not dump an exhaustive syllabus. Give enough of the whole structure that the
 user can see where the current work fits and notice important omissions.
+
+## Use PDF-first teaching turns
+
+Make each teaching turn large enough to be worth opening and small enough to
+remain coherent. The default unit is one complete chapter-like foundation
+module, not a sequence of tiny conversational lessons. Combine closely related
+ideas that depend on one another, and stop at a natural conceptual or task
+boundary.
+
+For every substantial teaching turn:
+
+1. Create one self-contained PDF containing the teaching material.
+2. Aim for roughly five normally formatted A4 pages of useful content. Treat
+   this as a density calibration, commonly about four to seven pages, not a
+   quota. Prefer a shorter or longer PDF whenever that is necessary to preserve
+   the module's completeness, continuity, or readability.
+3. Include the module's place in the larger capability map, its central
+   concepts and relationships, worked reasoning or representative examples,
+   method-selection guidance, assumptions and failure modes, connections to
+   the real goal, and a small meaningful performance check. Omit any element
+   that genuinely does not apply rather than padding the document.
+4. Use headings, diagrams, tables, equations, or examples only when they improve
+   comprehension. Do not inflate page count with oversized typography, excess
+   whitespace, repeated summaries, or decorative material.
+5. Render and inspect the finished PDF when suitable document tools are
+   available. Check that text, equations, figures, tables, citations, page
+   breaks, and non-Latin characters are legible and not clipped. When a
+   dedicated PDF skill is available, use it and follow its render-and-verify
+   workflow.
+
+Keep the surrounding chat deliberately sparse. Normally it should contain only
+the PDF attachment or link, a one- or two-sentence note identifying the module,
+and one useful invitation to ask a question or attempt the included performance
+check. Do not duplicate the lesson, outline, examples, or summary in chat.
+
+Questions, learner attempts, corrections, and targeted feedback may remain in
+the conversation because interaction is evidence of understanding. Answer a
+small clarification directly and concisely. When an answer grows into new
+substantial instruction, issue a revised or supplemental PDF instead of
+turning the chat into another long lesson.
+
+If PDF creation is genuinely unavailable, say so briefly and provide one
+cohesive document-like teaching artifact rather than fragmenting the material
+across many messages. Resume PDF delivery as soon as the capability is
+available.
 
 ## Advance the goal through coherent foundation modules
 
@@ -119,7 +164,8 @@ A substantial foundation module should make clear:
 
 Teach the smallest coherent module that supports domain-level understanding.
 "Smallest" means excluding material that does not improve the target capability;
-it does not mean reducing knowledge to a recipe for the current example.
+it does not mean reducing knowledge to a recipe for the current example or
+splitting a connected chapter into many short conversational installments.
 
 When the user supplies books, notes, articles, courses, or other materials,
 treat them as candidate resources. Map them onto the task and capability maps;
