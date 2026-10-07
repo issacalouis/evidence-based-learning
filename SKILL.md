@@ -90,12 +90,12 @@ For the first response:
 2. Show a compact provisional sequence of milestones derived from both maps.
 3. Identify the current stage and why it comes first.
 4. Deliver the orientation, diagnostic, or first foundation module in the same
-   response whenever possible, using the PDF-first teaching protocol below.
+   response whenever possible, using the Markdown-first teaching protocol below.
 
 Do not dump an exhaustive syllabus. Give enough of the whole structure that the
 user can see where the current work fits and notice important omissions.
 
-## Use PDF-first teaching turns
+## Use Markdown-first teaching turns
 
 Make each teaching turn large enough to be worth opening and small enough to
 remain coherent. The default unit is one complete chapter-like foundation
@@ -105,40 +105,40 @@ boundary.
 
 For every substantial teaching turn:
 
-1. Create one self-contained PDF containing the teaching material.
-2. Aim for roughly five normally formatted A4 pages of useful content. Treat
-   this as a density calibration, commonly about four to seven pages, not a
-   quota. Prefer a shorter or longer PDF whenever that is necessary to preserve
-   the module's completeness, continuity, or readability.
+1. Create one self-contained UTF-8 Markdown (`.md`) file containing the teaching
+   material. Markdown is the default; use another format only when the user
+   explicitly requests it.
+2. Deliver chapter-sized depth rather than a short outline or fragmented notes.
+   Let the module's completeness, continuity, and readability determine its
+   length; do not impose a page or word quota.
 3. Include the module's place in the larger capability map, its central
    concepts and relationships, worked reasoning or representative examples,
    method-selection guidance, assumptions and failure modes, connections to
    the real goal, and a small meaningful performance check. Omit any element
    that genuinely does not apply rather than padding the document.
 4. Use headings, diagrams, tables, equations, or examples only when they improve
-   comprehension. Do not inflate page count with oversized typography, excess
-   whitespace, repeated summaries, or decorative material.
-5. Render and inspect the finished PDF when suitable document tools are
-   available. Check that text, equations, figures, tables, citations, page
-   breaks, and non-Latin characters are legible and not clipped. When a
-   dedicated PDF skill is available, use it and follow its render-and-verify
-   workflow.
+   comprehension. Use standard Markdown, descriptive source links, and fenced
+   code blocks with language tags where applicable. Do not pad the document
+   with repeated summaries or decorative material.
+5. Reopen and inspect the saved Markdown. Check heading structure, tables,
+   code fences, equations, source links, referenced assets, and UTF-8 text,
+   including non-Latin characters. Preview it when a suitable renderer is
+   available; PDF generation and PDF-specific tools are not required.
 
 Keep the surrounding chat deliberately sparse. Normally it should contain only
-the PDF attachment or link, a one- or two-sentence note identifying the module,
+the Markdown attachment or link, a one- or two-sentence note identifying the module,
 and one useful invitation to ask a question or attempt the included performance
 check. Do not duplicate the lesson, outline, examples, or summary in chat.
 
 Questions, learner attempts, corrections, and targeted feedback may remain in
 the conversation because interaction is evidence of understanding. Answer a
 small clarification directly and concisely. When an answer grows into new
-substantial instruction, issue a revised or supplemental PDF instead of
+substantial instruction, issue a revised or supplemental Markdown file instead of
 turning the chat into another long lesson.
 
-If PDF creation is genuinely unavailable, say so briefly and provide one
-cohesive document-like teaching artifact rather than fragmenting the material
-across many messages. Resume PDF delivery as soon as the capability is
-available.
+If saving a Markdown file is genuinely unavailable, say so briefly and provide
+one cohesive Markdown teaching artifact in chat rather than fragmenting the
+material across many messages. Resume file delivery when saving is available.
 
 ## Advance the goal through coherent foundation modules
 
